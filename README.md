@@ -1,12 +1,13 @@
 # Election-System-Mini-Project
-AIM : To create a C program representing the election system where one can cast    their vote on their favourite person
-ABSTRACT : 
+# AIM : 
+To create a C program representing the election system where one can cast    their vote on their favourite person
+# ABSTRACT : 
 This C program demonstrates the process of election system where one can add the party name ,cast their vote , check the vote count and find who is in leading position .
 It is used to elect candidates from the list made by adding the party details.
 This program contains basic header file , #include <stdio.h> and many more and uses several functions and data types . ‘do’ loops and ‘switch’ statements have been used so that the user could enter their opinion on the output screen. 
 Structures have also been used. Overall the program is not complicated, and is useful in casting one’s vote on their favorite leader. 
 A Database has been created where the votes are stored. The code can be executed in ‘DEVC++’ or any C-compilers . 
-ALGORITHM :  
+# ALGORITHM :  
 First we declare header file and then define the candidates name followed by declaring the return type (void in this case), function name (retPcode, retVC, retName, Enter, Display, Cast Vote, Result) and printf statements, switch cases to print the options which is to be displayed on the output window. 
 When coming to the ‘leading candidate’ section , We use if control statement and basic operators of file handling to find out which candidate has got more voting. 
 We store the votecount and the party details in a binary file that we can access to perform operations and read it at our leisure. 
